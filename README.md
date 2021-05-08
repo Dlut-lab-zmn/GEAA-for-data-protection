@@ -27,10 +27,10 @@ The code could be seperated into several steps. It is very easy to re-implement 
 1. Train the classification network, e,g, cifar dataset and resnet18 model.
 You can easy transfer to other classification network and dataset.
 Download the data to ./cifar_data and copy the ./cifar_data/test/* to other dirs. data should follow the form:
-cd ./data
-python generate_dirs.py
-cp -r ./cifar_data/test/* ./adv/
-cp -r ./cifar_data/test/* ./process/
+-cd ./data
+-python generate_dirs.py
+-cp -r ./cifar_data/test/* ./adv/
+-cp -r ./cifar_data/test/* ./process/
 
 dirs example
 .
