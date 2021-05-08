@@ -1,5 +1,5 @@
 # DAPA-for-data-protection
-# This code is based on the paper 'Directional Adversarial Poisoning Attack (DAPA): First Adversarial Step towards the Shared Data Protection'
+## This code is based on the paper 'Directional Adversarial Poisoning Attack (DAPA): First Adversarial Step towards the Shared Data Protection'
 
 It supports:
 - Adversarial poisoning attack
