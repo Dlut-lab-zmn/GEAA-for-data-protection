@@ -34,8 +34,8 @@ Download the data to ./cifar_data and copy the ./cifar_data/test/* to other dirs
 - cp -r ./cifar_data/test/* ./process/
 
 dirs example
-.
-  /data
+.//
+  /data//
       /cifar_data
          /cifar_data
             /train
