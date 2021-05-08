@@ -33,40 +33,9 @@ Download the data to ./cifar_data and copy the ./cifar_data/test/* to other dirs
 - cp -r ./cifar_data/test/* ./adv/
 - cp -r ./cifar_data/test/* ./process/
 
-dirs example
-.//
-  /data//
-      /cifar_data
-         /cifar_data
-            /train
-                /0
-                /1
-                ...
-            /test
-                /0
-                /1
-                ...
-         /adv
-            /train
-                /0
-                /1
-                ...
-            /test
-                /0
-                /1
-                ...
-         /process
-            /train
-                /0
-                /1
-                ...
-            /test
-                /0
-                /1
-                ...
-We also offer many exisiting models on the dir ./models for your convenience.
-After you download the dataset and put it as the mentioned form, you can run the following code.
-
-python class_net_train.py --load_path './data/cifar_data/cifar_data' --dataset 'cifar' --device '0' --save_name 'cifar'
-
+We also offer many exisiting models on the dir ./models for user's convenience.
+After you download the dataset and put it follow the example form, you can run the following code.
+```bash
+$python class_net_train.py --load_path './data/cifar_data/cifar_data' --dataset 'cifar' --device '0' --save_name 'cifar'
+```
 The default model will decrease the learnning rate after 50 epochs, (0.1,0.01,0.001 totally 150 epochs.) , and saved at the dir './checkpoint/' as --save_name + '.pth'(such as 'cifar.pth').
