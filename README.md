@@ -31,8 +31,8 @@ Download the data to ./cifar_data and copy the ./cifar_data/test/* to other dirs
 
 - cd ./data
 - python generate_dirs.py
-- cp -r ./cifar_data/test/* ./adv/
-- cp -r ./cifar_data/test/* ./process/
+- cp -r ./cifar_data/test/* ./adv/test
+- cp -r ./cifar_data/test/* ./process/test
 
 We also offer many exisiting models on the dir ./models for user's convenience.
 After you download the dataset and put it follow the example form, you can run the following code.
