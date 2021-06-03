@@ -1,5 +1,5 @@
 # GAPA-for-data-protection
-## This code is based on the paper 'Guided Adversarial Poisoning Attack (GAPA): First Adversarial Step towards the Shared Data Protection'
+## This code is based on the paper 'Guided Reversible Adversarial Attack (GRAA): First Adversarial Step towards the Shared Data Protection'
 
 It supports:
 - Adversarial poisoning attack
