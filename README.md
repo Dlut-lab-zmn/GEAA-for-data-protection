@@ -60,7 +60,7 @@ $ python class_net_train.py --load_path './data/cifar_data/process/' --device '0
 ```
 If you use the codes, please cite the following paper:
 
-@article{zhao2022guided,
+$@article{zhao2022guided,
   title={Guided Erasable Adversarial Attack (GEAA) Toward Shared Data Protection},
   author={Zhao, Mengnan and Wang, Bo and Wang, Wei and Kong, Yuqiu and Zheng, Tianhang and Ren, Kui},
   journal={IEEE Transactions on Information Forensics and Security},
